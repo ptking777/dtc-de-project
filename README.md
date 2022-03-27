@@ -32,12 +32,12 @@ The data will then be uploaded to Google Storage Cloud (https://cloud.google.com
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Software Installations.</a>  
 <p>
 <h1>Project Setup</h1>  
-Upload/copy the key file my-etl-worker.json to the VM instance at /home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
+Upload/copy the key file my-etl-worker.json to the VM instance at /home/<USER>/.ssh/.google/credentials/google_credentials.json
 Then 
   chmod 0400 /home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
   
  Add the following entry to ~/.bashrc on the VM instance.
- export GOOGLE_APPLICATION_CREDENTIALS=/home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
+ export GOOGLE_APPLICATION_CREDENTIALS=/home/<USER>/.ssh/.google/credentials/google_credentials.json
  
  <h1>NiFi ETL Project</h1>
  <a href="https://github.com/ptking777/dtc_de_nifi_project/tree/master#readme">Setup NiFi Project</a>
