@@ -25,3 +25,4 @@ The data will then be uploaded to Google Storage Cloud (https://cloud.google.com
 
 <hr></hr>
 <h1>Infrastructure Setup</h1>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Setup GCP Infrastructure.</a>
