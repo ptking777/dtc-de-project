@@ -90,5 +90,5 @@ gcloud compute instances create my-etl-server --zone=us-central1-c \
             --image-project=ubuntu-os-cloud \
                 --boot-disk-size=100GB
 
-NAME           ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+NAME           ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS<br>
 my-etl-server  us-central1-c  e2-medium                  10.128.0.4   ????  RUNNING      
