@@ -31,3 +31,21 @@ The data will then be uploaded to Google Storage Cloud (https://cloud.google.com
 <h2>Install Python and Docker on GCP VM instance</h2>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Software Installations.</a>  
 <p>
+<h1>Project Setup</h1>  
+Upload/copy the key file my-etl-worker.json to the VM instance at /home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
+Then 
+  chmod 0400 /home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
+  
+ Add the following entry to ~/.bashrc on the VM instance.
+ export GOOGLE_APPLICATION_CREDENTIALS=/home/cloud_ninja_ptk/.ssh/.google/credentials/google_credentials.json
+ 
+ Download the git repository to the VM instance. Note that the branch is master. 
+ wget https://github.com/ptking777/dtc_de_nifi_project/archive/refs/heads/master.zip
+ sudo apt-get install unzip
+ unzip master.zip
+ mv dtc_de_nifi_project-master dtc_de_nifi_project
+ 
+ 
+ 
+ 
+ 
