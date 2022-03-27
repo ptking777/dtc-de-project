@@ -26,3 +26,8 @@ The data will then be uploaded to Google Storage Cloud (https://cloud.google.com
 <hr></hr>
 <h1>Infrastructure Setup</h1>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Setup GCP Infrastructure.</a>
+<p>
+<h1>Software Installation</h1>
+<h2>Install Python and Docker on GCP VM instance</h2>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Software Installations.</a>  
+<p>
