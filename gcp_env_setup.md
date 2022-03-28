@@ -17,7 +17,7 @@ https://cloud.google.com/docs/authentication/getting-started
 Setup environment variable:
 export GOOGLE_APPLICATION_CREDENTIALS=<path-to-directory>/.google/credentials/google_credentials.json
 
-Option 1.
+
 Install gcloud SDK on you local system.
 https://cloud.google.com/sdk/docs/install
 
@@ -25,9 +25,6 @@ Execute the statement below and follow the instructions to authorize login from 
 gcloud auth login
 
 
-Option 2.
-Access Google Cloud Shell. There is no need to install gcloud SDK.
-https://cloud.google.com/shell/
 
 
 <hr></hr>
@@ -83,13 +80,15 @@ gcloud iam service-accounts add-iam-policy-binding \
 
 
 Create a VM Instance using the terminal (either Cloud Shell or local terminal), execute the following:
-
+<pre>
 gcloud compute instances create my-etl-server --zone=us-central1-c \
     --machine-type=e2-medium \
-        --image=ubuntu-2004-focal-v20220308 \
-            --image-project=ubuntu-os-cloud \
-                --boot-disk-size=100GB
-
+    --image=ubuntu-2004-focal-v20220308 \
+    --image-project=ubuntu-os-cloud \
+    --boot-disk-size=100GB.  \
+    --scopes='https://www.googleapis.com/auth/bigquery,https://www.googleapis.com/auth/datastore'
+  
+</pre>
 NAME           ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS<br>
 my-etl-server  us-central1-c  e2-medium                  10.128.0.4   ????  RUNNING      <br>
 <p>
@@ -123,6 +122,17 @@ gcloud auth login
 Now try to SSH into the ETL server using gcloud SDK:
 gcloud compute ssh ${ETL_SERVER} --zone=us-central1-c  
 <p>
+Download the service account access key.  
+<pre>
+gcloud iam service-accounts keys create google_credentials.json \
+    --iam-account=my-etl-worker@dtc-de-zoom-camp.iam.gserviceaccount.com   
+ chmod 0400 ./google_credentials.json
+ mkdir -p  /home/${USER}/.ssh/.google/credentials
+ mv ./google_credentials.json /home/${USER}/.ssh/.google/credentials/google_credentials.json
+  
+Add the following line to ~/.bashrc 
+  export GOOGLE_APPLICATION_CREDENTIALS=/home/<USER>/.ssh/.google/credentials/google_credentials.json
+</pre>    
   
   
   
