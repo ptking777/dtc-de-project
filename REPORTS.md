@@ -1,6 +1,7 @@
 <h1>Project Results and Summary</h1>
 <p>
-<h2>Nifi Workflow diagrams</h2>
+<h2>Architecture Diagram</h2><br>  
+<h2>Nifi Workflow diagrams</h2><br>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/nifi-data-flow.png">Nifi transformation diagram</a>
 <a href="https://github.com/ptking777/dtc_de_nifi_project">NiFi ETL Git Reposityr</a>
 <p>
