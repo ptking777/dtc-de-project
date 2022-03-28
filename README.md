@@ -37,11 +37,11 @@ Then
  export GOOGLE_APPLICATION_CREDENTIALS=/home/<USER>/.ssh/.google/credentials/google_credentials.json
  
  <h1>NiFi ETL Application</h1>
- <a href="https://github.com/ptking777/dtc_de_nifi_project/tree/master#readme">Setup NiFi Project</a>
+ <a href="https://github.com/ptking777/dtc_de_nifi_project/blob/main/README.md">Setup NiFi Project</a>
  <p>
  
  <h1>Databse Tool (DBT) Application</>
- <a href="https://github.com/ptking777/dbt_noaa_zoom#readme">Run DBT application from Docker</a>
+ <a href="https://github.com/ptking777/dbt_noaa_zoom/blob/main/README.md">Run DBT application from Docker</a>
  
  
  
