@@ -1,6 +1,9 @@
 <h1>Data Talk Club</h1>
 <h2>Data Engineering Zoom Camp</h2>
-
+<p>
+<h2>Architecture Diagram<h2><br>
+<img src="https://bit.ly/3DhjBUw">
+<p>  
 <br>
 <h2>Final Project: NOAA Integrated Surface Database (ISD)</h2>
 <h3>February, 2022</h3>
