@@ -28,19 +28,18 @@ The data will then be uploaded to Google Storage Cloud (https://cloud.google.com
  <p> 
 <hr></hr>  
 <h1>Infrastructure Setup</h1>
-<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Setup GCP Infrastructure.</a>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Setup GCP Infrastructure</a>
 <p>
 <h1>Software Installation</h1>
 <h2>Install Python and Docker on GCP VM instance</h2>
-<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Software Installations.</a>  
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/gcp_env_setup.md">Software Installations</a>  
 <p>
  <hr></hr> 
 <h1>Project Setup</h1>  
  <h1>NiFi ETL Application</h1>
  <a href="https://github.com/ptking777/dtc_de_nifi_project/blob/main/README.md">Setup NiFi Project</a>
  <p>
- 
- <h1>Databse Tool (DBT) Application</h1><br>
+ <h1>Database Tool (DBT) Application</h1><br>
  <a href="https://github.com/ptking777/dbt_noaa_zoom/blob/main/README.md">Run DBT application from Docker</a>
  <p>
  
