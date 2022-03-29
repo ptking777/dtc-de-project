@@ -133,7 +133,21 @@ gcloud iam service-accounts keys create google_credentials.json \
 Add the following line to ~/.bashrc 
   export GOOGLE_APPLICATION_CREDENTIALS=/home/<USER>/.ssh/.google/credentials/google_credentials.json
 </pre>    
-  
+<p>
+<h1>Google Cloud Storage Setup</h1>
+From Google <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/cloud_shell.png">Cloud Shell</a>, create bucket.
+<pre>
+gsutil mb gs://dtc_de_data_lake_ptk
+</pre>
+<p>
+<h1>GCP BigQuery setup</h1>
+From Goolge Cloud Shell, create dataset noaa_isd_analytics.
+<pre>
+bq --location=US mk -d \
+--description "This is my dataset." noaa_isd_analytics
+</pre>
+<p>
+
   
   
   
