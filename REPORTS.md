@@ -18,19 +18,7 @@
 <h2>Google Cloud Platform BigQuery</h2>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/bigquery1.png">NOAA ISD Dataset on GCP BigQuery</a>
 <p>
-<h2>GCP Data Studio Report</h2><br>
-<h3>Data Studio Dashboard</h3>
-<ul>
-  <li>
-<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/NOAA_ISD_Temperature_Ranges.pdf">Data Studio Summary</a>
-  </li><li>
-<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/NOAA_ISD%202.pdf">Timeseries Data</a>
-  </li><li>
-<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/data-studio-config.png">DataStudio Config</a>
-  </li>
-  </ul>
-<br>
-Data Studio Shared Reports<br>
+<h2>GCP Data Studio Shared Reports</h2><br>
 <ul>  
 <li> 
 <a href="https://datastudio.google.com/reporting/cc59e191-29d1-4ccc-96b9-aa40df0f972a">NOAA ISD Summary</a>
@@ -41,5 +29,17 @@ Data Studio Shared Reports<br>
   <li>
 <a href="https://datastudio.google.com/reporting/14168147-b487-42fb-851f-14f22854592c">Annual Temperatukre Distribution</a>  
   </li>
-</ul>
+</ul>  
+<p>  
+<h2>Data Studio Report Downloads</h2><br>
+<ul>
+  <li>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/NOAA_ISD_Temperature_Ranges.pdf">Data Studio Summary</a>
+  </li><li>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/NOAA_ISD%202.pdf">Timeseries Data</a>
+  </li><li>
+<a href="https://github.com/ptking777/dtc-de-project/blob/main/images/data-studio-config.png">DataStudio Config</a>
+  </li>
+  </ul>
+<br>
 <p>
