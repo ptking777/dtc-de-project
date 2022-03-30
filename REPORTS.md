@@ -2,8 +2,10 @@
 <br>
 <h2>Project Results and Summary: NOAA Integrated Surface Database (ISD)</h2>
 <p>
-<h2>Architecture Diagram</h2><br>  
-<h2>NiFi Workflow Diagrams</h2><br>
+<h2>Architecture Diagram</h2>
+<img src="https://github.com/ptking777/dtc-de-project/blob/main/images/architecture.png" alt="Architecture Diagram">
+<p>
+<h2>NiFi Workflow Diagrams</h2>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/nifi-data-flow.png">Nifi transformation diagram</a>
 <a href="https://github.com/ptking777/dtc_de_nifi_project">NiFi ETL Git Repository</a>
 <p>
@@ -31,7 +33,7 @@
   </li>
 </ul>  
 <p>  
-<h2>Data Studio Report Downloads</h2>
+<h3>Data Studio Report Downloads</h3>
 <ul>
   <li>
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/NOAA_ISD_Temperature_Ranges.pdf">Data Studio Summary</a>
