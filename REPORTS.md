@@ -6,8 +6,13 @@
 <img src="https://github.com/ptking777/dtc-de-project/blob/main/images/architecture.png" alt="Architecture Diagram">
 <p>
 <h2>NiFi Workflow Diagrams</h2>
+<ul>
+<li>  
 <a href="https://github.com/ptking777/dtc-de-project/blob/main/images/nifi-data-flow.png">Nifi transformation diagram</a>
+  </li><li>
 <a href="https://github.com/ptking777/dtc_de_nifi_project">NiFi ETL Git Repository</a>
+  </li>  
+</ul>  
 <p>
 <h2>Data Build Tool (DBT) Lineage Diagram</h2>
 <ul><li>
